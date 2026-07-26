@@ -10,7 +10,7 @@ function Layout() {
       <nav className="navbar">
         <div className="container nav-container">
           <Link to="/" className="logo">
-            <span className="logo-icon">◆</span>
+            <img src="/logo.png" alt="Atlas Wargaming" className="logo-img" />
             <span>Atlas Wargaming</span>
           </Link>
           <ul className="nav-links">
@@ -31,7 +31,7 @@ function Layout() {
           <div className="footer-grid">
             <div>
               <div className="footer-logo">
-                <span className="logo-icon">◆</span>
+                <img src="/logo.png" alt="Atlas Wargaming" className="logo-img" />
                 <span>Atlas Wargaming Solutions LLC</span>
               </div>
               <p className="footer-desc">Strategic scenario planning for businesses that refuse to leave growth to chance.</p>

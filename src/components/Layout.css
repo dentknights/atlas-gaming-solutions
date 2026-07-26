@@ -29,6 +29,13 @@
   color: var(--color-text);
 }
 
+.logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
 .logo-icon {
   color: var(--color-primary);
   font-size: 1.2rem;
@@ -85,6 +92,11 @@
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 12px;
+}
+
+.footer-logo .logo-img {
+  width: 28px;
+  height: 28px;
 }
 
 .footer-desc {

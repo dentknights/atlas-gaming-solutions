@@ -16,7 +16,7 @@
   left: 50%;
   width: 700px;
   height: 500px;
-  background: radial-gradient(ellipse, rgba(232, 185, 35, 0.08) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(96, 165, 250, 0.1) 0%, transparent 70%);
   transform: translate(-50%, -50%);
   pointer-events: none;
 }
@@ -67,7 +67,7 @@
 }
 
 .scenario-card:hover {
-  border-color: rgba(232, 185, 35, 0.15);
+  border-color: rgba(96, 165, 250, 0.2);
   transform: translateY(-2px);
 }
 
@@ -110,7 +110,7 @@
 }
 
 .process-card:hover {
-  border-color: rgba(232, 185, 35, 0.12);
+  border-color: rgba(96, 165, 250, 0.15);
 }
 
 .process-step {

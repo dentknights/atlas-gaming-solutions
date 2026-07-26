@@ -1,20 +1,20 @@
-# Atlas Gaming Solutions LLC
+# Atlas Wargaming Solutions LLC
 
-Official company website built with React + Vite.
+Business wargaming consultancy website built with React + Vite.
 
 ## Pages
 
-- **Home** — Hero, platforms, features, CTA
-- **Games** — Game catalog with live player counts
-- **About** — Mission, story, responsible gaming
-- **Contact** — Support channels + FAQ
+- **Home** — Hero, scenario types, 3-step process, CTA
+- **Scenarios** — 6 detailed simulation offerings with deliverables
+- **About** — Company story, operating principles
+- **Contact** — Consultation booking, enterprise inquiries, FAQ
 
 ## Tech Stack
 
 - React 19
 - React Router v7
 - Vite 6
-- CSS custom properties (no framework)
+- CSS custom properties
 
 ## Quick Start
 
@@ -31,4 +31,4 @@ npm run build
 
 ---
 
-© 2026 Atlas Gaming Solutions LLC
+© 2026 Atlas Wargaming Solutions LLC

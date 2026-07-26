@@ -6,24 +6,24 @@ function Contact() {
       <section className="section">
         <div className="container">
           <h1 className="section-title">Contact Us</h1>
-          <p className="section-subtitle">Questions? We have answers. Reach out and our team will get back to you within 24 hours.</p>
+          <p className="section-subtitle">Ready to stress-test your strategy? Reach out and we will respond within one business day.</p>
 
           <div className="contact-grid grid-2">
             <div className="contact-info">
               <div className="card">
-                <h3>📞 Customer Support</h3>
-                <p>For account issues, gameplay questions, or technical help.</p>
-                <a href="mailto:support@atlasgaming.com" className="contact-link">support@atlasgaming.com</a>
+                <h3>📞 Schedule a Consultation</h3>
+                <p>Book a 30-minute discovery call to discuss your current strategic challenges.</p>
+                <a href="mailto:consult@atlaswargaming.com" className="contact-link">consult@atlaswargaming.com</a>
               </div>
               <div className="card">
-                <h3>💼 Business Inquiries</h3>
-                <p>Partnerships, press, and enterprise opportunities.</p>
-                <a href="mailto:business@atlasgaming.com" className="contact-link">business@atlasgaming.com</a>
+                <h3>💼 Enterprise Inquiries</h3>
+                <p>Custom engagements, multi-team programs, and retainer arrangements.</p>
+                <a href="mailto:enterprise@atlaswargaming.com" className="contact-link">enterprise@atlaswargaming.com</a>
               </div>
               <div className="card">
-                <h3>📞 Facebook Messenger</h3>
-                <p>Chat with us directly on Messenger for quick responses.</p>
-                <span className="contact-link">m.me/atlasgamingsolutions</span>
+                <h3>📞 General Inquiries</h3>
+                <p>Questions about methodology, pricing, or partnership opportunities.</p>
+                <a href="mailto:hello@atlaswargaming.com" className="contact-link">hello@atlaswargaming.com</a>
               </div>
             </div>
 
@@ -31,20 +31,24 @@ function Contact() {
               <h2 className="faq-title">Common Questions</h2>
               <div className="faq-list">
                 <details className="faq-item">
-                  <summary>What games and platforms do you have?</summary>
-                  <p>We offer Slots, Poker, Blackjack, Roulette, Bingo, and more — available on Web, iOS, Android, and Facebook.</p>
+                  <summary>What is business wargaming?</summary>
+                  <p>A structured simulation where teams role-play future scenarios — competitive attacks, market shifts, crises — to test strategy and build response playbooks before events occur.</p>
                 </details>
                 <details className="faq-item">
-                  <summary>Is it free to play?</summary>
-                  <p>Yes. All our games are 100% free to play. No deposits or purchases are ever required.</p>
+                  <summary>How long does a typical engagement take?</summary>
+                  <p>Most simulations run 1–3 days of active sessions, plus 1–2 weeks of pre-work (data gathering, scenario design) and 1 week of post-work (playbook documentation).</p>
                 </details>
                 <details className="faq-item">
-                  <summary>Do you pay real money?</summary>
-                  <p>Players can win real rewards through tournaments, leaderboards, and loyalty programs. No gambling or wagering involved.</p>
+                  <summary>Who should participate?</summary>
+                  <p>Ideally the leadership team directly responsible for the decision being tested. Typical groups are 4–12 participants. We can also run cross-functional sessions.</p>
                 </details>
                 <details className="faq-item">
-                  <summary>How do I sync my progress?</summary>
-                  <p>Simply log in with the same account across all platforms. Your progress syncs automatically in real time.</p>
+                  <summary>Is this like a workshop or a game?</summary>
+                  <p>It is rigorous and structured, not playful. We use competitive role-play and scenario injection, but the output is serious: decision matrices, risk registers, and action plans.</p>
+                </details>
+                <details className="faq-item">
+                  <summary>Do you offer remote sessions?</summary>
+                  <p>Yes. We run hybrid and fully remote wargames using digital whiteboards, breakout rooms, and real-time polling. In-person is preferred for sensitive strategy discussions.</p>
                 </details>
               </div>
             </div>

@@ -11,11 +11,11 @@ function Layout() {
         <div className="container nav-container">
           <Link to="/" className="logo">
             <span className="logo-icon">◆</span>
-            <span>Atlas Gaming</span>
+            <span>Atlas Wargaming</span>
           </Link>
           <ul className="nav-links">
             <li><Link to="/" className={isActive('/') ? 'active' : ''}>Home</Link></li>
-            <li><Link to="/games" className={isActive('/games') ? 'active' : ''}>Games</Link></li>
+            <li><Link to="/scenarios" className={isActive('/scenarios') ? 'active' : ''}>Scenarios</Link></li>
             <li><Link to="/about" className={isActive('/about') ? 'active' : ''}>About</Link></li>
             <li><Link to="/contact" className={isActive('/contact') ? 'active' : ''}>Contact</Link></li>
           </ul>
@@ -32,30 +32,31 @@ function Layout() {
             <div>
               <div className="footer-logo">
                 <span className="logo-icon">◆</span>
-                <span>Atlas Gaming Solutions LLC</span>
+                <span>Atlas Wargaming Solutions LLC</span>
               </div>
-              <p className="footer-desc">Premium gaming experiences across all platforms. Play free, win real.</p>
+              <p className="footer-desc">Strategic scenario planning for businesses that refuse to leave growth to chance.</p>
             </div>
             <div>
-              <h4>Quick Links</h4>
+              <h4>Navigate</h4>
               <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/games">Games</Link></li>
+                <li><Link to="/scenarios">Scenarios</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
               </ul>
             </div>
             <div>
-              <h4>Support</h4>
+              <h4>Services</h4>
               <ul>
-                <li><Link to="/contact">Help Center</Link></li>
-                <li><Link to="/contact">Account Issues</Link></li>
-                <li><Link to="/contact">Responsible Gaming</Link></li>
+                <li><Link to="/scenarios">Market Entry</Link></li>
+                <li><Link to="/scenarios">Crisis Response</Link></li>
+                <li><Link to="/scenarios">Competitive Strategy</Link></li>
+                <li><Link to="/scenarios">Growth Planning</Link></li>
               </ul>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© {new Date().getFullYear()} Atlas Gaming Solutions LLC. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Atlas Wargaming Solutions LLC. All rights reserved.</p>
           </div>
         </div>
       </footer>

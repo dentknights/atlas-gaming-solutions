@@ -26,7 +26,7 @@
   gap: 10px;
   font-weight: 800;
   font-size: 1.25rem;
-  color: var(--color-text);
+  color: #1f2937;
 }
 
 .logo-img {
@@ -50,14 +50,14 @@
 .nav-links a {
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--color-text-muted);
+  color: #4b5563;
   transition: color 0.2s;
   position: relative;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--color-text);
+  color: #1f2937;
 }
 
 .nav-links a.active::after {
